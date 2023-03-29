@@ -6,9 +6,8 @@ retorne o preço final do produto acrescido do imposto do estado em que ele ser�
 estado digitado não for válido, mostrar uma mensagem de erro.
 */
 int main() {
-    float preco;
+    float preco,imposto;
     char estado[3];
-    float imposto;
 
     printf("Digite o valor do produto: ");
     scanf("%f", &preco);
